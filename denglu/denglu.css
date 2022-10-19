@@ -1,0 +1,58 @@
+.denglu{
+    width: 1920px;
+    height: 574px;
+    background-image: url(../images/denglu.jpg);
+    background-color: #26b99b;
+}
+.dl{
+    float: right;
+    width: 340px;
+    height: 320px;
+    margin-top: 10%;
+    margin-right: 30px;
+    background-color: rgb(233, 233, 242);
+}
+.font_tobu{
+    display: inline-block;
+    height: 18px;
+    line-height: 5px;
+    font-size: 16px;
+    color: #3c3c3c;
+    margin: 9px 10px 0 0;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-left: 45px;
+    border-bottom: 2px solid #000;
+}
+.yhm{
+    margin-top: 15px;
+    margin-left: 45px;
+    width: 255px;
+    height: 40px;
+    border: 1px solid #ddd;
+}
+.denglu .yhm input{
+    height: 38px;
+    width: 216px;
+    outline: none;
+    border: none;
+}
+::placeholder{
+    font-size: 16px;
+    text-align: center;
+}
+.mm{
+    margin-top: 20px;
+}
+.jz{
+    margin-top: 30px;
+    margin-left: 45px;
+    font-size: 10px;
+}
+.font_denglu{
+    width: 255px;
+    height: 45px;
+    border: none;
+    margin: 20px 45px;
+    background-color: red;
+}

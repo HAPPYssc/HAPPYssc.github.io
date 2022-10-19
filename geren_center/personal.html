@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小兔鲜儿-新鲜、惠民、快捷！</title>
+    <meta name="description" content="小兔鲜儿官网，致力于打造全球最大的食品、生鲜电商购物平台。">
+    <meta name="keywords" content="小兔鲜儿,食品,生鲜,服装,家电,电商,购物">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../base.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./personal.css">
+</head>
+<body>
+    <!-- 标题 -->
+    <div class="indextitle">
+        <ul class="wrapper">
+            <li><a href="#"><span></span> 手机版</a></li>
+            <li><a href="#" id="zaixiankefu">在线客服</a></li>
+            <li><a href="../yijianfankui/opinion.html">意见反馈</a></li>
+            <li><a href="#">会员中心</a></li>
+            <li><a href="../shopping_car/shopping_car.html">购物车</a></li>
+            <li><a href="#">我不会写诗，欢迎您 !</a></li>    
+        </ul>
+    </div>
+    <!-- 导航 -->
+    <div style="background-color: white;">
+        <!-- 客服二维码 -->
+        <div id="kefu_qrcod"><img src="../images/qrcod.png" width="200px;" height="200px"></div>
+        <script>
+            var zaixiankefu = document.getElementById('zaixiankefu');
+            var flag = true;
+            zaixiankefu.onclick = function(){
+                var kefu_qrcod = document.getElementById('kefu_qrcod');
+                if(flag){
+                    flag = false
+                    kefu_qrcod.style = "display: block";
+                }
+                else{
+                    flag = true;
+                    kefu_qrcod.style = "display: none";
+                }  
+            }
+        </script>
+        <div class="dh wrapper">
+       <div class="logo"><img src="../images/logo.png" width="207px"></div>
+       <div class="nav">
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="#">生鲜</a></li>
+            <li><a href="#">美食</a></li>
+            <li><a href="#">餐厨</a></li>
+            <li><a href="#">电器</a></li>
+            <li><a href="#">居家</a></li>
+            <li><a href="#">洗护</a></li>
+            <li><a href="#">孕婴</a></li>
+            <li><a href="#">服装</a></li>
+        </ul>
+       </div>
+       <div class="sosuo">
+        <span></span>
+        <input type="text" placeholder=" 搜一搜">
+       </div>
+       <a href="#" class="car"></a>
+        </div>
+    </div>
+    <!-- 主体 -->
+    <div class="zhuti wrapper">
+        <div class="zhuti_left">
+            <dl>
+                <dt>我的账户</dt>
+                <dd><a href="#">消息通知</a></dd>
+                <dd><a href="#">个人信息</a></dd>
+                <dd><a href="#">安全设置</a></dd>
+                <dd><a href="#">地址管理</a></dd>
+                <dd><a href="#">我的积分</a></dd>
+                <dd><a href="#">邀请有礼</a></dd>
+                <dd><a href="#">我的足迹</a></dd>
+            </dl>
+            <hr style="border: 1px solid #f6f6f6;">
+            <dl>
+                <dt>交易管理</dt>
+                <dd><a href="#">我的订单</a></dd>
+                <dd><a href="#">优惠券</a></dd>
+                <dd><a href="#">礼品卡</a></dd>
+                <dd><a href="#">评价晒单</a></dd> 
+                <dd><a href="#">售后服务</a></dd>
+            </dl> 
+            <hr style="border: 1px solid #f6f6f6;">
+            <dl>
+                <dt>我的收藏</dt>
+                <dd><a href="#">收藏的商品</a></dd>
+                <dd><a href="#">关注的品牌</a></dd>
+            </dl> 
+            <hr style="border: 1px solid #f6f6f6;">
+            <dl>
+                <dt>帮助中心</dt>
+                <dd><a href="#">帮助中心</a></dd>
+                <dd><a href="#">在线客服</a></dd>
+            </dl> 
+        </div>
+        <div class="zhuti_right">
+            <div class="right_one">
+                <a href="#" class="avatar"></a>
+                <h3>我不会写诗</h3>
+                <ul>
+                    <li><a href="#">
+                        <span style="background-position: -120px -110px;"></span>
+                        <p>会员中心</p>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                        <span style="background-position: -160px -110px;"></span>
+                        <p>安全设置</p>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                        <span style="background-position: -200px -110px;"></span>
+                        <p>地址管理</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right_two">
+                <div class="me_dingdan">
+                    <h4 style="display: inline-block;">我的订单</h4>
+                    <a href="#">查看全部 &nbsp;></a>
+                </div>
+                <div class="dingdan_one">
+                    <a href="#"><img src="../uploads/iphon.png" width=106px; height=126px;></a>
+                    <h5>Apple iPhone 14 Pro Max (A2896) <br><p>颜色: 暗紫色 大小: 1TB 数量: 1</p></h5>
+                    <span style="color: red; text-align: center;">待收货<a href="#" style="color: #999;">查看物流</a></span>
+                    <div class="jiage">
+                        <h6 style="color: red; float: left; margin-left: 75px; margin-top: 40px;">￥ 13499</h6>
+                        <p style="float: left; margin-left: 70px; margin-top: 5px;">在线支付</p>
+                    </div>
+                    <div style="float: left; font-size: 14px;">
+                        <div class="font_ljfk"><a href="#" style="color: white;">确认收货</a></div><br>
+                        <div class="xiangqing"><a href="#">查看详情</a><br><a href="#">再次购买</a></div>
+                    </div>
+                </div>
+                <div class="dingdan_one">
+                    <a href="#"><img src="../uploads/ipad.png" width=106px; height=126px;></a>
+                    <h5>Apple iPad Air 10.9英寸平板电脑 2022年款<br><p>颜色: 深空灰 大小: 256G 数量: 1</p></h5>
+                    <h3 class="ssc"><p>待收货</p><a href="#">查看物流</a></h3>
+                    <div class="jiage">
+                        <h6 style="color: red; float: left; margin-left: 75px; margin-top: 40px;">￥ 5499</h6>
+                        <p style="float: left; margin-left: 70px; margin-top: 5px;">在线支付</p>
+                    </div>
+                    <div style="float: left; font-size: 14px;">
+                        <div class="font_ljfk"><a href="#" style="color: white;">确认收货</a></div><br>
+                        <div class="xiangqing"><a href="#">查看详情</a><br><a href="#">再次购买</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="right_three">
+                <p class="font_sc">我的收藏</p>
+                <ul>
+                    <li>
+                        <a href="https://item.jd.com/100029533743.html">
+                            <img src="../uploads/GT3.png" width="154px" height="154px">
+                            <span>华为（HUAWEI）WATCH 3 Pro New 华为智能手表</span>
+                            <h4>￥ 2849</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://item.jd.com/10052651670055.html#crumb-wrap">
+                            <img src="../uploads/sony.png" width="154px" height="154px">
+                            <span>索尼（SONY）WH-1000XM5 头戴式无线降噪耳机</span>
+                            <h4>￥ 2958</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://item.jd.com/100037199889.html">
+                            <img src="../uploads/huawei.png" width="154px" height="154px">
+                            <span>HUAWEI Mate 50 RS 保时捷设计</span>
+                            <h4>￥ 12999</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://item.jd.com/10049796715139.html">
+                            <img src="../uploads/ROG.png" width="154px" height="154px">
+                            <span>ROG 冰刃6双屏16英寸 R9-6900HX 64G内存 4T SSD</span>
+                            <h4>￥ 55999</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right_three">
+                <p class="font_sc">我的足迹</p>
+                <ul>
+                    <li>
+                        <a href="https://item.jd.com/100038004383.html#crumb-wrap">
+                            <img src="../uploads/iphon.png" width="154px" height="154px">
+                            <span>Apple iPhone 14 Pro Max (A2896)</span>
+                            <h4>￥ 13499</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://item.jd.com/100015131905.html">
+                            <img src="../uploads/djwrj.png" width="154px" height="154px">
+                            <span>大疆 DJI Mavic 3 御3航拍无人机 哈苏相机</span>
+                            <h4>￥ 12888</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://item.jd.com/100034709974.html#crumb-wrap">
+                            <img src="../uploads/ipad.png" width="154px" height="154px">
+                            <span>Apple iPad Air 10.9英寸平板电脑 2022年款</span>
+                            <h4>￥ 5499</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://item.jd.com/5823205.html">
+                            <img src="../uploads/sonyxj.png" width="154px" height="154px">
+                            <span>索尼（SONY）Alpha 7R III全画幅微单相机 SEL70200GM长焦套装</span>
+                            <h4>￥ 33098</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 联系我们 -->
+    <div style="background-color: white;">
+        <div class="callWe wrapper">
+            <div class="callwe_khfw">
+                  <p style="text-align: center; color: #999999;">客户服务</p>
+                  <a href="#" class="khfwcommon">
+                    <span></span>
+                    <p>在线客服</p>
+                  </a>
+                  <a class="khfwcommon">
+                    <span style="background-position: -350px -70px;"></span>
+                    <p>问题反馈</p>
+                  </a>
+            </div>
+            <div class="callwe_khfw" style="margin-left: 120px;">
+                <p style="text-align: center; color: #999999;">关注我们</p>
+                <a href="#" class="khfwcommon">
+                  <span style="background-position: -205px -15px;"></span>
+                  <p>公众号</p>
+                </a>
+                <a href="#" class="khfwcommon">
+                  <span style="background-position: -350px -15px;"></span>
+                  <p>微博</p>
+                </a>
+            </div>
+            <div class="callwe_xz">
+                <p style="text-align: center; color: #999999; padding-left: 0;">下载APP</p>
+                <div class="qrcode">
+                  <img src="../images/qrcod.png" width="105px" height="103px" style="margin-top: 6px; margin-left: 5px;">
+                </div>
+                <div class="xz_right">
+                    <p>扫描二维码</p>
+                    <p>立即下载App</p>
+                    <a href="#">下载页面</a>
+                </div>
+            </div>
+            <div class="callwe_h">
+               <div class="callwe_call">
+                   <p style="text-align: center; color: #999999;">服务热线</p>
+                   <span>1870-813-041</span>
+                   <p style="margin-top: 15px; font-size: 15px; color: #999999;">周一至周日 8:00-18:00</p>
+               </div>
+            </div>
+        </div>
+    </div> 
+    <!-- 版权 -->
+    <div class="copyright">
+        <div class="copyright_top wrapper">
+          <div class="font" style="margin-left: 130px;">
+                <span style="background-position: 0 0;"></span>
+                <p>价格亲民</p>
+          </div>
+          <div class="font" style="margin-left: 300px;">
+                <span style="background-position: -65px 0;"></span>
+                <p>物流快捷</p>
+          </div>
+          <div class="font" style="margin-left: 300px;">
+                <span style="background-position: -130px 0;"></span>
+                <p>品质新鲜</p>
+          </div>
+        </div>
+        <div class="copyright_botton wrapper">
+          <ul>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">售后服务</a></li>
+            <li><a href="#">配送与验收</a></li>
+            <li><a href="#">商务合作</a></li>
+            <li><a href="#">搜索推荐</a></li>
+            <li><a href="#">友情链接</a></li>
+          </ul>
+          <p>CopyRight @ 小兔鲜儿</p>
+        </div>
+    </div>
+</body>
+</html>

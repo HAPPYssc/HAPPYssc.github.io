@@ -1,0 +1,119 @@
+.shoppingzt{
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.shoppingcar{
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+.font_shoppingcar{
+    height: 70px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.font_shoppingcar h3{
+    float: left;
+}
+.font_shoppingcar h5{
+    float: left;
+    line-height: 28px;
+    margin-left: 735px;
+}
+.font_shoppingcar button{
+    position: relative;
+    display: inline-block;
+    bottom: 7px;
+    left: 60px;
+    width: 75px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    background-color: orangered;
+    color: white;
+}
+.font_xinxi{
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 60px;
+}
+.font_xinxi h5{
+    float: left;
+}
+.shoppingcar .shopping_goods{
+    width: 1144px;
+    height: 132px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.shoppingcar .shopping_goods span{
+    width: 235px;
+    position: relative;
+    bottom: 34px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.shoppingcar .shopping_goods small{
+    width: 190px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 40px;
+    color: #9c9c9c;
+    position: relative;
+    bottom: 34px;
+}
+.shoppingcar .shopping_goods h5{
+    display: inline-block;
+    margin-left: 25px;
+    position: relative;
+    bottom: 34px;
+}
+.shoppingcar .shopping_goods .jiajian{
+    width: 80px;
+    height: 25px;
+    margin-left: 70px;
+    display: inline-block;
+    position: relative;
+    bottom: 34px;
+}
+.shoppingcar .shopping_goods .jiajian button{
+    width: 18px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+.shoppingcar .shopping_goods .jiajian input{
+    width: 30px;
+    height: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.shoppingcar .shopping_goods #delgoods1{
+    position: relative;
+    bottom: 34px;
+    margin-left: 115px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+.shoppingcar .shopping_goods #delgoods2{
+    position: relative;
+    bottom: 34px;
+    margin-left: 115px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}

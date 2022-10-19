@@ -1,0 +1,211 @@
+body{
+    background-color: #f6f6f6;
+}
+.zhuti{
+    margin-top: 20px;
+    height: 1432px;
+}
+.zhuti_left{
+    float: left;
+    width: 224px;
+	height: 1120px;
+	background-color: #ffffff;
+}
+.zhuti_left dl{
+    padding-top: 30px;
+    margin-left: 50px;
+}
+.zhuti_left dl dt{
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.zhuti_left dl dd{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.zhuti_left dl dd a{
+    display: list-item;
+    list-style-type: none;
+}
+.zhuti_left dl dd a:hover{
+    color: #25ba9b;
+    list-style-type: disc;
+}
+
+
+.zhuti_right{
+    float: left;
+    margin-left: 20px;
+    width: 996px;
+}
+.zhuti_right .right_one{
+    height: 132px;
+    background-color: #26b99b;
+}
+.zhuti_right .right_one .avatar{
+    float: left;
+    margin-left: 59px;
+    margin-top: 23px;
+    background-image: url(../images/avatar.jpg);
+    background-size: 85px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+.zhuti_right .right_one h3{
+    float: left;
+    margin-left: 26px;
+    margin-top: 58px;
+    font-weight: normal;
+    color: white;
+}
+.zhuti_right .right_one ul{
+    float: left;
+    margin-left: 300px;
+}
+.zhuti_right .right_one ul li{
+    float: left;
+    margin-right: 100px;
+    margin-top: 45px;
+}
+.zhuti_right .right_one ul li:nth-child(3){
+    margin-right: 0;
+}
+.zhuti_right .right_one ul li span{
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    margin-left: 24px;
+    /* background-color: pink; */
+    background-image: url(../images/sprites.png);
+}
+.zhuti_right .right_one ul li a{
+    color: white;
+}
+
+
+.zhuti_right .right_two{
+	height: 374px;
+    margin-top: 20px;
+    background-color: white;
+}
+.zhuti_right .right_two .me_dingdan{
+    padding: 21px 13px 19px 12px;
+}
+.zhuti_right .right_two .me_dingdan h4{
+    font-size: 19px;
+	font-weight: normal;
+}
+.zhuti_right .right_two .me_dingdan a{
+    float: right;
+    color: #999;
+}
+.zhuti_right .right_two .dingdan_one{
+    width: 971px;
+	height: 137px;
+    margin-left: 12px;
+    border: 1px solid #f4f4f4;
+}
+.zhuti_right .right_two .dingdan_one a{
+    float: left;
+    margin-top: 5px;
+    margin-left: 13px;
+}
+.zhuti_right .right_two .dingdan_one h5{
+    float: left;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+.zhuti_right .right_two .dingdan_one  h5 p{
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #999;
+}
+.zhuti_right .right_two .dingdan_one span{
+    float: left;
+    width: 180px;
+    height: 135px;
+    font-size: 14px;
+    padding-left: 100px;
+    padding-top: 40px;
+    margin-right: 80px;
+}
+.zhuti_right .right_two .dingdan_one .jiage{
+    float: left;
+    width: 196px;
+    height: 137px;
+    font-size: 15px;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+.zhuti_right .right_two .dingdan_one .font_ljfk{
+    float: left;
+    width: 100px;
+	height: 31px;
+    padding: 1px 10px;
+    margin-top: 27px;
+    margin-left: 40px;
+	background-color: #27ba9b;
+}
+.zhuti_right .right_two .dingdan_one .xiangqing{
+    float: left;
+    margin-left: 49px;
+    margin-top: 5px;
+}
+
+.ssc{
+    float: left;
+    color: red; 
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 40px;
+    padding-left: 63px; 
+    margin-right: 92px !important;
+}
+.ssc a{
+    float: left;
+    color: #999;
+    margin-left: 0 !important;
+}
+
+
+.zhuti_right .right_three{
+	height: 408px;
+    margin-top: 20px;
+	background-color: #ffffff;
+}
+.zhuti_right .right_three .font_sc{
+    font-size: 19px;
+    padding-top: 21px;
+    margin-left: 11px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #f6f6f6;
+}
+.zhuti_right .right_three ul{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.zhuti_right .right_three ul li{
+    float: left;
+    height: 304px;
+    width: 242px;
+    padding-top: 8px;
+    padding-left: 25px;
+}
+.zhuti_right .right_three ul li:hover{
+    border: 2px solid #25ba9b;
+}
+.zhuti_right .right_three ul li span{
+    display: block;
+    margin-top: 10px;
+    width: 184px;
+    height: 65px;
+}
+.zhuti_right .right_three ul li h4{
+    font-size: 22px;
+    font-weight: normal;
+    color: red;
+}
